@@ -22,7 +22,6 @@ const DetailComp = ({productDetail}) => {
       price: productDetail?.price, 
       quantity:quantity
     }))
-    window.location.reload()
   }
   return (
     <div className='flex gap-10 my-10'>
